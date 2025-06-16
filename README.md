@@ -1,37 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🧬 Harshita.exe — A Simulation of Mind, Skill & Decisions
 
-## Getting Started
+> “You’re not just visiting a website. You’re booting into a digital simulation — a living, evolving OS that mirrors Harshita’s mind.”
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌐 What is Harshita.exe?
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Harshita.exe** is a futuristic, interactive portfolio designed as a simulated operating system.  
+It lets users explore not just projects, but the *thinking, failures, ethics, and evolution* behind them.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+You're not a passive viewer.  
+You're an **Operator** navigating the simulation.  
+You’ll interact with modules, run terminal commands, experience system glitches, and challenge ethical frameworks.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🖥️ Interface Architecture
 
-To learn more about Next.js, take a look at the following resources:
+### 🧾 Taskbar (Bottom Dock)
+- `Projects.dll` — Full archive of projects with code, visuals, and thought processes  
+- `Ethics.sys` — Interactive moral dilemmas and real decision logs  
+- `Intuitions.log` — Half-formed ideas, raw insights, speculative designs  
+- `Skills.config` — Tech stack, toolchain, and dev journey “patch notes”  
+- `Failures.tmp` — Lessons from failed experiments  
+- `System_Terminal` — Command line with AI-assisted interaction  
+- `🧠 Clarity.exe` — A sarcastic AI assistant that challenges your thinking  
+- `Eject Simulation` — Exit sequence with a memory snapshot
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📂 Modules
 
-## Deploy on Vercel
+Each opens into a terminal/desktop hybrid UI with the following:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Visual timelines, heatmaps, and demos
+- GPT-enhanced logs of decisions, challenges, pivots
+- Branching skill trees and config displays
+- Terminal simulations of bugs and breakthroughs
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# harshita-exe
+---
+
+## ⚙️ Tech Stack
+
+| Layer         | Tech                                             |
+|---------------|--------------------------------------------------|
+| Frontend      | React, Tailwind CSS, Framer Motion               |
+| Terminal      | xterm.js / Custom Canvas Terminal                |
+| AI Assistant  | OpenAI GPT-4o with styled personality (Clarity)  |
+| Backend       | Supabase (logs, data, simulation state)          |
+| Hosting       | Vercel / Netlify                                 |
+| Enhancements  | Three.js / WebGL for glitch & visual effects     |
+| Analytics     | PostHog / custom session logger                  |
+
+---
+
+## 🧠 AI Assistant: `Clarity.exe`
+
+> “I think you're overfitting this design. Want to try a dumber idea?”
+
+Clarity.exe is a sarcastic yet insightful GPT-powered sidekick.  
+It comments, questions, and even argues with the Operator.  
+Used to generate:
+- GPT prompt ideas
+- Ethical simulation responses
+- Weird what-if redesigns of old projects
+
+---
